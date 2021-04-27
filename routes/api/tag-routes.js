@@ -5,7 +5,6 @@ const { Tag, Product, ProductTag } = require("../../models");
 
 router.get("/", async (req, res) => {
   // find all tags
-  // be sure to include its associated Product data
   try {
     const tagData = await Tag.findAll({
       include: [{ model: Product, as: "product" }],
@@ -18,7 +17,6 @@ router.get("/", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
   // find a single tag by its `id`
-  // be sure to include its associated Product data
   try {
     const tagData = await Tag.findByPk(req.params.id, {
       include: [{ model: Product, as: "product" }],
@@ -45,10 +43,9 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-  // update a tag's name by its `id` value NEEDS REVIEW
+  // update a tag's name by its `id` value
   try {
-    const tagData = await Tag.update({
-      title: req.body.title,
+    const tagData = await Tag.update( req.body, {
       where: {
         id: req.params.id,
       }
