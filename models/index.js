@@ -23,7 +23,8 @@ Product.belongsToMany(Tag, {
 
 // Tags belongToMany Products (through ProductTag) CHECK THIS
 Tag.belongsToMany(Product, {
-  through: { model: ProductTag, unqiue: false },
+  // through: { model: ProductTag, unqiue: false },
+  through: ProductTag,
   // as: "product_tag",
 });
 
