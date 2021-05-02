@@ -6,9 +6,6 @@
 - [Installation and Usage](#installation-and-use)
 - [License](#license)
 
-![screenshot-top-of-page](assets/images/demo1.png)
-![screenshot-project-example](assets/images/demo2.png)
-
 # Description
 
 This is a Node.js app that provides Models and a routing structure for an e-commerce back-end. It contains three routes: products, tags, and categories; offering the user to perform CRUD operations on each one. The app utlizes sequelize and MySQL Workbench as a means of creating and communicating with the database.
