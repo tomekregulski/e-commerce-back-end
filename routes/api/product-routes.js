@@ -54,7 +54,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// create new product NEEDS REVIEW
+// create new product
 router.post("/", async (req, res) => {
   try {
     const productData = await Product.create({
@@ -64,7 +64,6 @@ router.post("/", async (req, res) => {
       category_id: req.body.category_id,
       tagIds: req.body.tagIds,
     });
-
     if (req.body.tagIds.length) {
       const productTagIdArr = req.body.tagIds.map((tag_id) => {
         return {
@@ -83,7 +82,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// update product NEEDS REVIEW
+// update product
 router.put("/:id", async (req, res) => {
   // update product data
   try {
