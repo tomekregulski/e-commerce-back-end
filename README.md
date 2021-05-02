@@ -11,7 +11,7 @@
 This is a Node.js app that provides Models and a routing structure for an e-commerce back-end. It contains three routes: products, tags, and categories; offering the user to perform CRUD operations on each one. The app utlizes sequelize and MySQL Workbench as a means of creating and communicating with the database.
 
 This app does not have a UI, and is not deployed. I have created a screenshare video to demonstrate its functionality via a series of requests through Insomnia, which can be viewed in two parts here: <br>
-Installation, testing Product and Tag routes: https://drive.google.com/file/d/12sPrtx9a6CYn3Hna_JLcMDa45xqSbc2A/view <br>
+Installation, testing Product and Tag routes: https://drive.google.com/file/d/1skcvdvsz52uTsv-IGFMhtyMZ2x_rWcSI/view?usp=sharing <br>
 Testing category routes: https://drive.google.com/file/d/1justal8CWKzOPmO7Ocjrl64aAvzTgkK8/view
 
 # Installation and Use
