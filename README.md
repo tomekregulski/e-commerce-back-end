@@ -12,7 +12,7 @@ This is a Node.js app that provides Models and a routing structure for an e-comm
 
 This app does not have a UI, and is not deployed. I have created a screenshare video to demonstrate its functionality via a series of requests through Insomnia, which can be viewed in two parts here: <br>
 Installation, testing Product and Tag routes: https://drive.google.com/file/d/1skcvdvsz52uTsv-IGFMhtyMZ2x_rWcSI/view?usp=sharing <br>
-Testing category routes: https://drive.google.com/file/d/1justal8CWKzOPmO7Ocjrl64aAvzTgkK8/view
+Testing category routes: https://drive.google.com/file/d/1justal8CWKzOPmO7Ocjrl64aAvzTgkK8/view?usp=sharing
 
 # Installation and Use
 
