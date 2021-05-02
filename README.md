@@ -39,7 +39,7 @@ and
 npm run seed
 ```
 
-You have now created and seeded the database, and installed all the necessary dependencies to ude this app.
+You have now created and seeded the database, and installed all the necessary dependencies to use this app.
 
 You can use Postman, Insomnia, or a similar program to test the routes and consider any adjustments you may want to make to fit your needs.
 
