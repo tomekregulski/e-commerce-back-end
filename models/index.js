@@ -15,17 +15,14 @@ Category.hasMany(Product, {
   onDelete: "SET NULL",
 });
 
-// Products belongToMany Tags (through ProductTag) CHECK THIS
+// Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: { model: ProductTag, unqiue: false },
-  // as: "product_tag",
 });
 
-// Tags belongToMany Products (through ProductTag) CHECK THIS
+// Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
-  // through: { model: ProductTag, unqiue: false },
   through: ProductTag,
-  // as: "product_tag",
 });
 
 module.exports = {
